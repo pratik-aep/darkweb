@@ -1,0 +1,20 @@
+# Collected data, snapshots, databases, and logs are evidence/output — never commit
+data/
+demo_data/
+*.db
+*.db-wal
+*.db-shm
+*.log
+snapshots/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+live_demo/
+live_run/
+.DS_Store
+.env

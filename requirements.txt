@@ -1,0 +1,19 @@
+# Core HTTP + SOCKS proxying (DNS resolved over Tor via socks5h://)
+requests>=2.31.0
+PySocks>=1.7.1
+
+# Tor control-port interaction for circuit rotation (NEWNYM)
+stem>=1.8.2
+
+# HTML parsing for site-specific parsers (uses the stdlib html.parser backend,
+# so lxml is optional). Install lxml too if you want the faster/robust backend.
+beautifulsoup4>=4.12.0
+
+# AI analysis (OPTIONAL). Only needed for `--llm-enrich` / `--llm-assess`;
+# everything else — collection, correlation, the actor graph, stylometry and
+# temporal inference — runs without it. Imported lazily, so its absence never
+# breaks a run.
+# anthropic>=0.40.0
+
+# Testing (dev only)
+pytest>=7.0

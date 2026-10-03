@@ -1,0 +1,14 @@
+# Seed .onion URLs, one per line. Blank lines and lines starting with '#' are ignored.
+#
+# The analyst supplies the collection targets here. The examples below are
+# well-known *legitimate* onion services, useful only for verifying that Tor
+# connectivity and the pipeline work end to end before pointing at real targets.
+#
+# DuckDuckGo (onion)
+https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/
+# Tor Project (onion)
+http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion/
+# ProPublica (onion)
+https://p53lf57qovyuvwsc6xnrppyply3vtqm7l6pcobkmyqsiofyeznfu5uqd.onion/
+
+# --- Add real collection targets below (passive collection only) ---
